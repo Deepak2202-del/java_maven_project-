@@ -64,5 +64,16 @@
             </plugin>
         </plugins>
     </build>
+    
+    <distributionManagement>
+        <repository>
+            <id>my-repository</id>
+            <url>https://github.com/Deepak2202-del/java_maven_project-.git>
+            <!-- You can add additional configuration options here -->
+        </repository>
+    </distributionManagement>
+    
+    <profiles>
+        <!-- Define any additional profiles here -->
+    </profiles>
 </project>
-
